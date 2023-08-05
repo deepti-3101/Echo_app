@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastel Blue Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <div class="profile__image"></div>
+            <div class="profile__name">John Doe</div>
+        </div>
+    </header>
+
+    <main>
+        <div class="chatbot"></div>
+        <h5>Ar Therapy</h5>
+        <div class="cards-container">
+            
+            <div class="card">Meditation
+                <model-viewer src="uploads_files_3641433_Octopus_toy.fbx" ar camera-controls auto-rotate ar ar-modes="scene-viewer webxr" camera-controls touch-action="pan-y" auto-rotate>
+                    <br><br><br>
+                    <button slot="ar-button">
+                        Activate AR
+                    </button>
+                </model-viewer>
+            </div>
+            <div class="card">Card 2</div>
+            <div class="card">Card 3</div>
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
